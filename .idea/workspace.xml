@@ -20,10 +20,10 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="22" lean-forward="false" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
+            <state relative-caret-position="330">
+              <caret line="232" column="29" lean-forward="false" selection-start-line="232" selection-start-column="29" selection-end-line="232" selection-end-column="29" />
               <folding>
-                <marker date="1524073814000" expanded="false" signature="36589:50029" ph="..." />
+                <marker date="1524078369000" expanded="false" signature="37402:50842" ph="..." />
               </folding>
             </state>
           </provider>
@@ -198,6 +198,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="433469b2-2842-4c69-96fd-c3582df3affd" name="Default" comment="" />
@@ -205,12 +208,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1523982399918</updated>
-      <workItem from="1523982401237" duration="9847000" />
+      <workItem from="1523982401237" duration="11186000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9847000" />
+    <option name="totallyTimeSpent" value="11186000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="1052" extended-state="6" />
@@ -279,10 +282,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="22" lean-forward="false" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
+        <state relative-caret-position="330">
+          <caret line="232" column="29" lean-forward="false" selection-start-line="232" selection-start-column="29" selection-end-line="232" selection-end-column="29" />
           <folding>
-            <marker date="1524073814000" expanded="false" signature="36589:50029" ph="..." />
+            <marker date="1524078369000" expanded="false" signature="37402:50842" ph="..." />
           </folding>
         </state>
       </provider>

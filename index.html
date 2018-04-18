@@ -4,32 +4,44 @@
     <title>Welcome to Vue</title>
     <script src="https://unpkg.com/vue"></script>
     <style>
-        @import url('https://fonts.googleapis.com/css?family=Karla:700');
-
+        @import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i');
         body {
             /* background-image: url('WALLPAPER.png');
              background-size: 250px 250px;*/
-            font-family: 'Karla', monospace;
-            padding: 20px;
+            font-family: 'Libre Baskerville', serif;
+            padding: 22px;
+            background-color: #00AEEF;
         }
 
         #evolution-wordmark {
-            fill: black;
             width: 100%;
+            height: 70px;
+            border-bottom: 36px solid #00AEEF;
+            position: fixed;
+            top: 0;
+            left: 0;
+            background-color: white;
+        }
 
+        #evolution-wordmark img {
+            margin-top: 10px;
+            margin-right: 20px;
+            height: 50px;
+            position: absolute;
+            right: 0;
         }
 .emphasis{
     color: #00AEEF;
+    font-style: italic;
 }
         #copy-block {
-            border: 16px solid #00AEEF;
-            margin-top: 50px;
-            background-color: black;
-            color: white;
+            margin-top: 70px;
+            background-color: white;
+            color: black;
             width: 100%;
             padding: 50px;
             box-sizing: border-box;
-            font-size: 50px;
+            font-size: 36px;
             text-align: justify;
             margin-bottom: 100px;
         }
@@ -49,11 +61,14 @@
             padding: 30px;
             text-align: center;
             font-size: 45px;
-            text-transform: uppercase;
+            text-transform: lowercase;
             text-decoration: underline;
             cursor: pointer;
+            font-style: italic;
         }
-
+        p{
+            margin: 0 20px 50px;
+        }
         @keyframes fade-in-and-out {
             0% {
                 opacity: 1;
@@ -202,15 +217,29 @@
 
 #fake-room{
     float: left;
-    border: 16px solid #00AEEF;
     margin: 0 50px;
 }
+#fake-room img{
+    border: 16px solid #00AEEF;
+
+}
+
+        @media only screen and (max-width: 900px) {
+            #fake-room{
+                float: none;
+                margin: 0 50px;
+                display: flex;
+                justify-content: center;
+                margin: 25px;
+            }
+        }
     </style>
 </head>
 <body>
 <div id="app">
-
-    <img id="evolution-wordmark" src="logo-with-wordmark.svg" alt="">
+<div id="evolution-wordmark">
+    <img  src="logo-with-wordmark.svg" alt="">
+</div>
 <!--    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 684.08 123.6" id="evolution-wordmark">
         <g data-name="Evolution Word Mark">
             <path class="cls-1"
@@ -222,7 +251,9 @@
         interested in submitting designs?
     </div>
     <div id="copy-block">
+        <div id="fake-room">
         <img src="fakeroom.jpg" alt="" id="fake-room">
+        </div>
         <p>
         Lorem ipsum dolor amet tilde locavore non nostrud pinterest, selfies tote bag voluptate lyft snackwave readymade
         VHS. <span class="emphasis"> Non labore deep v tilde, occupy vice paleo schlitz edison bulb shabby chic food truck butcher ea.</span> Blog
