@@ -4,38 +4,38 @@
     <title>Welcome to Vue</title>
     <script src="https://unpkg.com/vue"></script>
     <style>
-        @import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i');
+        @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i');
         body {
             /* background-image: url('WALLPAPER.png');
              background-size: 250px 250px;*/
-            font-family: 'Libre Baskerville', serif;
-            padding: 22px;
-            background-color: #00AEEF;
+            font-family: 'Source Sans Pro', sans-serif;
+            padding: 1px;
+            background: linear-gradient(270deg, #00aeef, #08769f);
+            background-size: 400% 400%;
+
+            -webkit-animation: gradient-animation 30s ease infinite;
+            -moz-animation: gradient-animation 30s ease infinite;
+            animation: gradient-animation 30s ease infinite;
         }
 
         #evolution-wordmark {
             width: 100%;
-            height: 70px;
-            border-bottom: 36px solid #00AEEF;
-            position: fixed;
-            top: 0;
-            left: 0;
+
             background-color: white;
+            padding: 20px;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
         }
 
         #evolution-wordmark img {
-            margin-top: 10px;
-            margin-right: 20px;
-            height: 50px;
-            position: absolute;
-            right: 0;
+            width: 100%;
         }
 .emphasis{
     color: #00AEEF;
     font-style: italic;
 }
         #copy-block {
-            margin-top: 70px;
             background-color: white;
             color: black;
             width: 100%;
@@ -43,13 +43,10 @@
             box-sizing: border-box;
             font-size: 36px;
             text-align: justify;
-            margin-bottom: 100px;
         }
         @media screen and (max-width: 900px){
             #copy-block{
-                margin-top: 65px;
                 font-size: 24px;
-                padding: 20px 5px 100px;
             }
         }
 
@@ -57,17 +54,39 @@
             width: 100%;
         }
 
+
+        @-webkit-keyframes gradient-animation {
+            0%{background-position:0% 50%}
+            50%{background-position:100% 50%}
+            100%{background-position:0% 50%}
+        }
+        @-moz-keyframes gradient-animation {
+            0%{background-position:0% 50%}
+            50%{background-position:100% 50%}
+            100%{background-position:0% 50%}
+        }
+        @keyframes gradient-animation {
+            0%{background-position:0% 50%}
+            50%{background-position:100% 50%}
+            100%{background-position:0% 50%}
+        }
         #artist-box {
             position: fixed;
             right:0;
             bottom: 0px;
             width: 100%;
-            background-color: #00AEEF;
+            background: linear-gradient(270deg, #00aeef, #08769f);
+            background-size: 400% 400%;
+
+            -webkit-animation: gradient-animation 30s ease infinite;
+            -moz-animation: gradient-animation 30s ease infinite;
+            animation: gradient-animation 30s ease infinite;
+
             color: white;
             box-sizing: border-box;
-            padding: 30px;
+            padding: 10px;
             text-align: center;
-            font-size: 45px;
+            font-size: 28px;
             text-transform: lowercase;
             text-decoration: underline;
             cursor: pointer;
@@ -227,10 +246,12 @@
     margin: 0 50px;
 }
 #fake-room img{
-    border: 16px solid #00AEEF;
-
+    border: 2px solid #00AEEF;
+    max-width: 100%;
 }
-
+img{
+    max-width: 100%;
+}
         @media only screen and (max-width: 900px) {
             #fake-room {
                 display: none;
@@ -255,9 +276,10 @@
         interested in submitting designs?
     </div>
     <div id="copy-block">
-        <div id="fake-room">
+<!--        <div id="fake-room">
         <img src="fakeroom.jpg" alt="" id="fake-room">
-        </div>
+        </div>-->
+        <img src="room-ad.jpg" alt="">
         <p>
         Lorem ipsum dolor amet tilde locavore non nostrud pinterest, selfies tote bag voluptate lyft snackwave readymade
         VHS. <span class="emphasis"> Non labore deep v tilde, occupy vice paleo schlitz edison bulb shabby chic food truck butcher ea.</span> Blog
